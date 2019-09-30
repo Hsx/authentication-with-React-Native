@@ -27,6 +27,7 @@ class LoginForm extends Component {
 
   loginFail() {
     console.log('Hatalı');
+     this.setState({ loading: false });
   }
 
   renderButton() {
